@@ -3,17 +3,18 @@
 
 using namespace std;
 
-int tambah(int a, int b){
+int tambah(double a, double b){
     int hasil = a + b;
     return hasil;
 }
 
-int kurang(int a, int b){
+int kurang(double a, double b){
     int hasil = a - b;
     return hasil;
 }
 int main(){
-    int a, b, hasil1, hasil2;
+    double a, b;
+    int hasil1, hasil2;
     cout << "== aritmatika == \n";
     cout << "1. Penjumlahan \n";
     cin >> a;
