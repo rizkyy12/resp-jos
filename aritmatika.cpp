@@ -4,16 +4,17 @@
 using namespace std;
 
 int tambah(int a, int b){
-    int hasil = a + b;
+    double hasil = a + b;
     return hasil;
 }
 
 int kurang(int a, int b){
-    int hasil = a - b;
+    double hasil = a - b;
     return hasil;
 }
 int main(){
-    int a, b, hasil1, hasil2;
+    int a, b;
+    double hasil1, hasil2;
     cout << "== aritmatika == \n";
     cout << "1. Penjumlahan \n";
     cin >> a;
