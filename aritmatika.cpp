@@ -12,9 +12,10 @@ int kurang(double a, double b){
     int hasil = a - b;
     return hasil;
 }
+
 int main(){
-    double a, b;
-    int hasil1, hasil2;
+    int a, b;
+    double hasil1, hasil2;
     cout << "== aritmatika == \n";
     cout << "1. Penjumlahan \n";
     cin >> a;
