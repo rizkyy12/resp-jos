@@ -17,7 +17,7 @@ int bagi(double a, double b){
     int hasil = a / b;
     return hasil;
 }
-
+//menambahkan fungction ini
 void tampilkan(double a, double b){
     cout << "Hasilnya : \n";
     cout << "Tambah : ";
