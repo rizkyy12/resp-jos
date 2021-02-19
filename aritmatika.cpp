@@ -18,17 +18,21 @@ int bagi(double a, double b){
     return hasil;
 }
 
+void tampilkan(double a, double b){
+    cout << "Hasilnya : \n";
+    cout << "Tambah : ";
+    cout << tambah(a, b) << endl;
+    cout << "Kurang : ";
+    cout << kurang(a, b) << endl;
+    cout << "Bagi : ";
+    cout << bagi(a, b) << endl;
+}
 int main(){
     int a, b;
-    double hasil1, hasil2, hasil3, hasil4;
+    double hasil1, hasil2, hasil3;
     cout << "== aritmatika == \n";
     cout << "Masukan angka : ";
     cin >> a;
     cin >> b;
-    hasil1 = tambah(a, b);
-    hasil2 = kurang(a, b);
-    hasil3 = bagi(a, b);
-    cout << "Penjumlahan = " << hasil1 << endl;
-    cout << "Pengurangan = " << hasil2 << endl;
-    cout << "Pembagian = " << hasil3 << endl;
+    tampilkan(a, b);
 }
