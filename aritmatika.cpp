@@ -13,15 +13,22 @@ int kurang(double a, double b){
     return hasil;
 }
 
+int bagi(double a, double b){
+    int hasil = a / b;
+    return hasil;
+}
+
 int main(){
     int a, b;
-    double hasil1, hasil2;
+    double hasil1, hasil2, hasil3;
     cout << "== aritmatika == \n";
     cout << "1. Penjumlahan \n";
     cin >> a;
     cin >> b;
     hasil1 = tambah(a, b);
     hasil2 = kurang(a, b);
+    hasil3 = bagi(a, b);
     cout << "Penjumlahan = " << hasil1 << endl;
     cout << "Pengurangan = " << hasil2 << endl;
+    cout << "Pembagian = " << hasil3 << endl;
 }
